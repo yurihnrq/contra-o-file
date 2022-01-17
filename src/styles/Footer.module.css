@@ -1,0 +1,33 @@
+.footer {
+	@apply bg-greenLogo text-white grid grid-cols-1 sm:grid-cols-2 p-6;
+}
+
+.footer section {
+	@apply m-2;
+}
+
+.footer .info {
+	@apply flex flex-wrap justify-start gap-6 mx-auto;
+}
+
+.footer .info h3 {
+	@apply font-medium;
+}
+
+.footer .info svg {
+	@apply fill-white;
+	height: 45px;
+}
+
+.footer .info a {
+	@apply inline-block mr-4;
+}
+
+
+.footer nav {
+	@apply flex flex-col sm:flex-row justify-center m-2;
+}
+
+.footer nav a {
+	@apply flex items-center my-3 sm:mx-6 whitespace-nowrap;
+}

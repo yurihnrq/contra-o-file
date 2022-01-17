@@ -10,7 +10,7 @@ const Header = () => {
 	const [sideNav, setSideNav] = useState(false);
 
 	return (
-		<header className={header}>
+		<header className={header} id="Header">
 			<div>
 				<Link to="/">
 					<img src={logo} alt="Contra o Filé logo" />
