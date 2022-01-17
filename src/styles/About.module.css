@@ -1,0 +1,29 @@
+.about {
+	@apply text-center py-12 px-5;
+}
+
+.about h2 {
+	@apply text-greenLogo text-3xl font-medium mb-2;
+}
+
+.about article {
+	@apply grid grid-cols-1 md:grid-cols-2;
+}
+
+.about .aboutText {
+	@apply flex flex-col justify-center px-2;
+}
+
+.about .aboutText p {
+	font-family: 'Didact Gothic', sans-serif;
+	@apply text-2xl text-center md:text-left my-5;
+}
+
+.about .aboutImg {
+	@apply hidden md:flex justify-center items-center px-2;
+}
+
+.about .aboutImg img {
+	min-width: 200px;
+	max-width: 500px;
+}

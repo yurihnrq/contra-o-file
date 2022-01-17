@@ -1,6 +1,6 @@
 .landing {
 	height: calc(100vh - 5rem);
-	background: url("../images/background.jpg");
+	background: url("../images/bg-unsplash.webp");
 	background-attachment: fixed;
 	background-size: cover;
 	background-position-x: center;
@@ -11,7 +11,7 @@
 
 .content {
 	@apply h-full w-full flex flex-col justify-center items-center p-10;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.45);
 }
 
 .content h1 {
