@@ -1,0 +1,37 @@
+.header {
+	@apply p-1 flex flex-row justify-between h-20 items-center;
+}
+
+
+.header div:first-child {
+	@apply flex
+}
+
+.header img {
+	@apply w-44 md:w-60;
+}
+
+.header nav a {
+	@apply mx-4 flex items-center;
+}
+
+.header button {
+	@apply md:hidden
+}
+
+.header .nav {
+	@apply hidden md:flex h-full text-greenLogo font-semibold;
+}
+
+.header .sidenav {
+	@apply absolute w-full h-full top-0 left-0 bg-greenLogo font-medium text-white overflow-auto;
+	transition: all ease-in-out;
+}
+
+.header .sidenav a {
+	@apply mb-2 py-2;
+}
+
+.header .sidenav div:first-child {
+	@apply flex justify-end h-20;
+}

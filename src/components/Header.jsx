@@ -1,20 +1,61 @@
-import * as React from "react"
-import PropTypes from "prop-types"
+import React, { useState } from "react"
+import { Link } from "gatsby"
+import logo from "../images/logo/logo-inline.png"
 
-const Header = () => (
-	<header>
-		<h1>
-			Header
-		</h1>
-	</header>
-)
+import { header, nav, sidenav } from "../styles/Header.module.css"
+import { MenuIcon, CloseIcon } from "../components/Icons.jsx"
 
-Header.propTypes = {
-	siteTitle: PropTypes.string,
-}
+const Header = () => {
 
-Header.defaultProps = {
-	siteTitle: ``,
+	const [sideNav, setSideNav] = useState(false);
+
+	return (
+		<header className={header}>
+			<div>
+				<Link to="/">
+					<img src={logo} alt="Contra o Filé logo" />
+				</Link>
+			</div>
+			<nav className={nav}>
+				<Link to="/especialidades">
+					Especialidades
+				</Link>
+				<Link to="#sobre">
+					Sobre nós
+				</Link>
+				<Link to="#contato">
+					Contato
+				</Link>
+			</nav>
+			<button onClick={() => setSideNav(!sideNav)}>
+				<MenuIcon />
+			</button>
+			{
+				sideNav ? (
+					<nav className={sidenav}>
+						<div>
+							<button onClick={() => setSideNav(!sideNav)}>
+								<CloseIcon />
+							</button>
+						</div>
+						<div className="flex flex-col">
+							<Link to="/especialidades" onClick={() => setSideNav(!sideNav)}>
+								Especialidades
+							</Link>
+							<Link to="#sobre" onClick={() => setSideNav(!sideNav)}>
+								Sobre nós
+							</Link>
+							<Link to="#contato" onClick={() => setSideNav(!sideNav)}>
+								Contato
+							</Link>
+						</div>
+					</nav>
+				) : (
+					null
+				)
+			}
+		</header >
+	)
 }
 
 export default Header
