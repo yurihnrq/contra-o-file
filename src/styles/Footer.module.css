@@ -1,5 +1,9 @@
 .footer {
-	@apply bg-greenLogo text-white grid grid-cols-1 sm:grid-cols-2 p-6;
+	@apply bg-greenLogo grid grid-cols-1 sm:grid-cols-2 p-6;
+}
+
+.footer * {
+	@apply text-white;
 }
 
 .footer section {

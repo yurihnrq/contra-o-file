@@ -4,6 +4,7 @@ import Layout from "../components/Layout"
 import Seo from "../components/Seo"
 import LandingSection from "../components/LandingSection"
 import About from "../components/About"
+import Contact from "../components/Contact"
 
 
 const IndexPage = () => (
@@ -11,6 +12,7 @@ const IndexPage = () => (
 		<Seo title="Bem-vindo" />
 		<LandingSection />
 		<About />
+		<Contact />
 	</Layout>
 )
 

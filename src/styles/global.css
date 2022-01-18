@@ -10,4 +10,5 @@ html {
 
 * {
 	font-family: 'Roboto', sans-serif;
+	@apply text-gray-800;
 }

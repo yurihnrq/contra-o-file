@@ -1,9 +1,9 @@
 .about {
-	@apply text-center py-12 px-5;
+	@apply text-center pt-10 px-5;
 }
 
 .about h2 {
-	@apply text-greenLogo text-3xl font-medium mb-2;
+	@apply text-greenLogo text-3xl font-medium mb-4;
 }
 
 .about article {
@@ -11,12 +11,12 @@
 }
 
 .about .aboutText {
-	@apply flex flex-col justify-center px-2;
+	@apply flex flex-col justify-center px-2 gap-6;
 }
 
 .about .aboutText p {
 	font-family: 'Didact Gothic', sans-serif;
-	@apply text-2xl text-center md:text-left my-5;
+	@apply text-2xl text-center md:text-left;
 }
 
 .about .aboutImg {

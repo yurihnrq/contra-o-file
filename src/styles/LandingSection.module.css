@@ -7,11 +7,16 @@
 	background-position-y: center;
 	object-fit: cover;
 	color: white;
+	min-height: 400px;
 }
 
 .content {
 	@apply h-full w-full flex flex-col justify-center items-center p-10;
 	background-color: rgba(0, 0, 0, 0.45);
+}
+
+.content * {
+	@apply text-white;
 }
 
 .content h1 {

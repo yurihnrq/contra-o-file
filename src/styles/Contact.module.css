@@ -1,0 +1,46 @@
+.contact {
+	@apply text-center py-10 px-5;
+}
+
+.contact h2 {
+	@apply text-3xl text-greenLogo font-medium mb-4;
+}
+
+.contact article {
+	@apply grid grid-cols-1 lg:grid-cols-2;
+}
+
+.contact form {
+	@apply flex flex-col px-2 justify-center w-full md:w-3/4 mx-auto;
+}
+
+.contact label {
+	@apply text-left
+}
+
+.contact input {
+	border: 1px solid black;
+	@apply rounded-md h-10 outline-none mb-6 px-2;
+}
+
+.contact textarea {
+	border: 1px solid black;
+	height: 400px;
+	@apply p-2 rounded-md outline-none resize-none;
+}
+
+.contact button {
+	@apply mx-auto lg:mx-0 bg-brownLogo rounded-md p-4 my-3 w-fit hover:bg-orange-400 text-white;
+}
+
+.contact .map {
+	@apply hidden lg:flex lg:flex-col lg:justify-center px-2;
+}
+
+.contact .map iframe {
+	@apply w-3/4 h-full mx-auto rounded-md;
+}
+
+.contact .map p {
+	@apply font-medium text-justify mt-3 w-3/4 mx-auto;
+}
