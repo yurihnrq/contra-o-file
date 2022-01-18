@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-import { footer, info, links } from "../styles/Footer.module.css"
+import { footer, info } from "../styles/Footer.module.css"
 import { InstagramIcon, TwitterIcon, FaceBookIcon } from "../components/Icons"
 
 const Footer = () => (
@@ -34,15 +34,15 @@ const Footer = () => (
 					Redes sociais:
 				</h3>
 				<div>
-					<Link to="/insta">
+					<a href="https://instagram.com" target="_blank" rel="norefferer">
 						<InstagramIcon />
-					</Link>
-					<Link to="/facebook">
+					</a>
+					<a href="https://facebook.com" target="_blank" rel="norefferer">
 						<FaceBookIcon />
-					</Link>
-					<Link to="/twitter">
+					</a>
+					<a href="https://twitter.com" target="_blank" rel="norefferer">
 						<TwitterIcon />
-					</Link>
+					</a>
 				</div>
 			</div>
 		</section>
@@ -50,10 +50,10 @@ const Footer = () => (
 			<Link to="/especialidades">
 				Especialidades
 			</Link>
-			<Link to="#sobre">
+			<Link to="/#sobre">
 				Sobre nós
 			</Link>
-			<Link to="#Header">
+			<Link to="/#Header">
 				Voltar ao topo
 			</Link>
 		</nav>

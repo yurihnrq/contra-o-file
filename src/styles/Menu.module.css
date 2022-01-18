@@ -1,0 +1,20 @@
+.menu {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.menu h2, .menu h3 {
+	@apply font-medium text-center sm:text-left my-4;
+}
+
+.menu h2 {
+	@apply text-3xl sm:text-4xl;
+}
+
+.menu h3 {
+	@apply text-xl sm:text-2xl;
+}
+
+.menu .items, .menu .packed {
+	@apply flex flex-wrap justify-center sm:justify-start gap-10;
+}

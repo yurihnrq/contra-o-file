@@ -25,7 +25,7 @@
 
 .contact textarea {
 	border: 1px solid black;
-	height: 400px;
+	height: 300px;
 	@apply p-2 rounded-md outline-none resize-none;
 }
 

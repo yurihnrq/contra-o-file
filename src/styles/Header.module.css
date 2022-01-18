@@ -24,12 +24,12 @@
 }
 
 .header .sidenav {
-	@apply absolute w-full h-full top-0 left-0 bg-greenLogo font-medium text-white overflow-auto;
+	@apply absolute w-screen h-screen top-0 left-0 bg-greenLogo font-medium;
 	transition: all ease-in-out;
 }
 
 .header .sidenav a {
-	@apply mb-2 py-2;
+	@apply mb-2 py-2 text-white;
 }
 
 .header .sidenav div:first-child {

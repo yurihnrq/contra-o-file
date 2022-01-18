@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 import { Link } from "gatsby"
 import logo from "../images/logo/logo-inline.png"
 
@@ -8,6 +8,11 @@ import { MenuIcon, CloseIcon } from "../components/Icons.jsx"
 const Header = () => {
 
 	const [sideNav, setSideNav] = useState(false);
+
+	useEffect(() => {
+		const bodyStyle = document.body.style
+		sideNav ? bodyStyle.overflow = "hidden" : bodyStyle.overflow = "auto"
+	}, [sideNav])
 
 	return (
 		<header className={header} id="Header">
@@ -20,10 +25,10 @@ const Header = () => {
 				<Link to="/especialidades">
 					Especialidades
 				</Link>
-				<Link to="#sobre">
+				<Link to="/#sobre">
 					Sobre nós
 				</Link>
-				<Link to="#contato">
+				<Link to="/#contato">
 					Contato
 				</Link>
 			</nav>
@@ -42,10 +47,10 @@ const Header = () => {
 							<Link to="/especialidades" onClick={() => setSideNav(!sideNav)}>
 								Especialidades
 							</Link>
-							<Link to="#sobre" onClick={() => setSideNav(!sideNav)}>
+							<Link to="/#sobre" onClick={() => setSideNav(!sideNav)}>
 								Sobre nós
 							</Link>
-							<Link to="#contato" onClick={() => setSideNav(!sideNav)}>
+							<Link to="/#contato" onClick={() => setSideNav(!sideNav)}>
 								Contato
 							</Link>
 						</div>

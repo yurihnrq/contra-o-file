@@ -1,0 +1,22 @@
+.card {
+	@apply flex flex-col overflow-hidden;
+	@apply rounded-md sm:hover:scale-105 transition-all;
+	@apply border-2 border-brownLogo;
+	width: 350px;
+}
+
+.card .text {
+	@apply bg-brownLogo text-center py-4;
+}
+
+.card img {
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+	object-fit: cover;
+}
+
+.card .text p {
+	font-family: 'Didact Gothic', sans-serif;
+	@apply text-xl;
+}
