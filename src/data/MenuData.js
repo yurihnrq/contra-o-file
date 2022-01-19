@@ -1,14 +1,14 @@
 // Pratos
-import p1 from "../images/pratos/p1-unsplash.jpg";
-import p2 from "../images/pratos/p2-unsplash.jpg";
-import p3 from "../images/pratos/p3-unsplash.jpg";
-import p4 from "../images/pratos/p4-unsplash.jpg";
-import p5 from "../images/pratos/p5-unsplash.jpg";
-import p6 from "../images/pratos/p6-unsplash.jpg";
+import p1 from "../images/pratos/p1-unsplash.webp";
+import p2 from "../images/pratos/p2-unsplash.webp";
+import p3 from "../images/pratos/p3-unsplash.webp";
+import p4 from "../images/pratos/p4-unsplash.webp";
+import p5 from "../images/pratos/p5-unsplash.webp";
+import p6 from "../images/pratos/p6-unsplash.webp";
 
 // Marmitas
-import m1 from "../images/marmitex/m1-unsplash.jpg";
-import m2 from "../images/marmitex/m2-unsplash.jpg";
+import m1 from "../images/marmitex/m1-unsplash.webp";
+import m2 from "../images/marmitex/m2-unsplash.webp";
 
 export const cardapio = [
 	{
@@ -22,12 +22,12 @@ export const cardapio = [
 		img: p2
 	},
 	{
-		nome: "Porção de frutas e legumes frescos",
+		nome: "Porção de frutas e legumes",
 		preco: 14.90,
 		img: p3
 	},
 	{
-		nome: "Tacos veganos com molhos (7un.)",
+		nome: "Tacos veganos (7un.)",
 		preco: 28.90,
 		img: p4
 	},

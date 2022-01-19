@@ -1,5 +1,6 @@
 import React from "react"
 
+import Button from "./Button"
 import { landing, content, buttons } from "../styles/LandingSection.module.css"
 
 const LandingSection = () => {
@@ -13,12 +14,12 @@ const LandingSection = () => {
 					Por um mundo onde se mate a fome e não os animais.
 				</p>
 				<div className={buttons}>
-					<button>
-						Peça pelo iFood
-					</button>
-					<button>
-						Peça pelo Whatsapp
-					</button>
+					<a href="https://ifood.com.br" target="_blank" rel="norefferer">
+						<Button text={"Peça pelo iFood"} className={"mx-3"} />
+					</a>
+					<a href="https://whatsapp.com/?lang=pt_br" target="_blank" rel="norefferer">
+						<Button text={"Peça pelo WhatsApp"} className={"mx-3 mt-3 sm:mt-0"} />
+					</a>
 				</div>
 			</div>
 		</section>

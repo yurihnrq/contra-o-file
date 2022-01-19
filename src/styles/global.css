@@ -4,11 +4,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Roboto:wght@100;300;400;500;700&display=swap');
 
+* {
+	font-family: 'Roboto', sans-serif;
+	@apply text-gray-800;
+}
+
 html {
 	@apply bg-bgray;
 }
 
-* {
-	font-family: 'Roboto', sans-serif;
-	@apply text-gray-800;
+section > h2, section > h3 {
+	@apply text-greenLogo text-3xl sm:text-4xl font-medium mb-4;
 }

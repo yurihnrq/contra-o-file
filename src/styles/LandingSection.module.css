@@ -31,7 +31,3 @@
 .buttons {
 	@apply flex flex-wrap justify-center;
 }
-
-.buttons button {
-	@apply bg-brownLogo rounded-md py-4 mx-5 my-3 w-44 hover:bg-orange-400;
-}

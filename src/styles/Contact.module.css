@@ -2,10 +2,6 @@
 	@apply text-center py-10 px-5;
 }
 
-.contact h2 {
-	@apply text-3xl text-greenLogo font-medium mb-4;
-}
-
 .contact article {
 	@apply grid grid-cols-1 lg:grid-cols-2;
 }

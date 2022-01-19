@@ -2,10 +2,6 @@
 	@apply text-center pt-10 px-5;
 }
 
-.about h2 {
-	@apply text-greenLogo text-3xl font-medium mb-4;
-}
-
 .about article {
 	@apply grid grid-cols-1 md:grid-cols-2;
 }

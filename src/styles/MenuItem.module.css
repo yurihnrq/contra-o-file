@@ -6,7 +6,7 @@
 }
 
 .card .text {
-	@apply bg-brownLogo text-center py-4;
+	@apply bg-brownLogo text-center py-4 px-2;
 }
 
 .card img {

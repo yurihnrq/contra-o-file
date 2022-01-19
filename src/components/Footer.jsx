@@ -47,8 +47,8 @@ const Footer = () => (
 			</div>
 		</section>
 		<nav>
-			<Link to="/especialidades">
-				Especialidades
+			<Link to="/cardapio">
+				Cardápio
 			</Link>
 			<Link to="/#sobre">
 				Sobre nós

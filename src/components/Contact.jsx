@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 
+import Button from "./Button"
 import { contact, map } from "../styles/Contact.module.css"
 
 const Contact = () => {
@@ -44,7 +45,7 @@ const Contact = () => {
 							id="mensagem" name="mensagem" cols="30" rows="10" required
 							value={message} onChange={({ target }) => setMessage(target.value)}
 						></textarea>
-						<button>Enviar mensagem</button>
+						<Button text={"Enviar mensagem"} />
 					</form>
 				</div>
 				<div className={map}>

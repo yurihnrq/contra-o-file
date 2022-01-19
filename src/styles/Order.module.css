@@ -1,0 +1,12 @@
+.order {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.order h2, .order h3 {
+	@apply font-medium text-center sm:text-left my-4;
+}
+
+.order .buttons {
+	@apply flex flex-col items-center sm:flex-row sm:justify-start mb-6;
+}

@@ -22,8 +22,8 @@ const Header = () => {
 				</Link>
 			</div>
 			<nav className={nav}>
-				<Link to="/especialidades">
-					Especialidades
+				<Link to="/cardapio">
+					Cardápio
 				</Link>
 				<Link to="/#sobre">
 					Sobre nós
@@ -32,20 +32,20 @@ const Header = () => {
 					Contato
 				</Link>
 			</nav>
-			<button onClick={() => setSideNav(!sideNav)}>
+			<button onClick={() => setSideNav(!sideNav)} ariaLabel="Abrir navegação">
 				<MenuIcon />
 			</button>
 			{
 				sideNav ? (
 					<nav className={sidenav}>
 						<div>
-							<button onClick={() => setSideNav(!sideNav)}>
+							<button onClick={() => setSideNav(!sideNav)} ariaLabel="Fechar navegação">
 								<CloseIcon />
 							</button>
 						</div>
 						<div className="flex flex-col">
-							<Link to="/especialidades" onClick={() => setSideNav(!sideNav)}>
-								Especialidades
+							<Link to="/cardapio" onClick={() => setSideNav(!sideNav)}>
+								Cardápio
 							</Link>
 							<Link to="/#sobre" onClick={() => setSideNav(!sideNav)}>
 								Sobre nós
