@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import logo from "../images/logo/logo-inline.png";
 
 import { header, nav, sidenav } from "../styles/Header.module.css";
-import { MenuIcon, CloseIcon } from "../components/Icons.jsx";
+import { MenuIcon, CloseIcon } from "../components/Icons";
 
 const Header = () => {
 

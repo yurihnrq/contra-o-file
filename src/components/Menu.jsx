@@ -2,7 +2,7 @@ import * as React from "react";
 import MenuItem from "./MenuItem";
 
 import { menu, packed, items } from "../styles/Menu.module.css";
-import { cardapio, marmitas } from "../data/MenuData.js";
+import { cardapio, marmitas } from "../data/MenuData";
 
 const Menu = () => {
 	return (
