@@ -1,7 +1,7 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 
-import Button from "./Button"
-import { contact, map } from "../styles/Contact.module.css"
+import Button from "./Button";
+import { contact, map } from "../styles/Contact.module.css";
 
 const Contact = () => {
 
@@ -20,7 +20,7 @@ const Contact = () => {
 
 		// Enviar os dados para algum lugar aqui.
 		console.log(obj);
-	}
+	};
 
 	return (
 		<section className={contact} id="contato">
@@ -60,7 +60,7 @@ const Contact = () => {
 				</div>
 			</article>
 		</section>
-	)
-}
+	);
+};
 
-export default Contact
+export default Contact;

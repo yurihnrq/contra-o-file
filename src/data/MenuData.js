@@ -41,7 +41,7 @@ export const cardapio = [
 		preco: 12.90,
 		img: p6
 	}
-]
+];
 
 export const marmitas = [
 	{
@@ -54,4 +54,4 @@ export const marmitas = [
 		preco: 20.90,
 		img: m2
 	}
-]
+];

@@ -1,8 +1,8 @@
-import * as React from "react"
-import MenuItem from "./MenuItem"
+import * as React from "react";
+import MenuItem from "./MenuItem";
 
-import { menu, packed, items } from "../styles/Menu.module.css"
-import { cardapio, marmitas } from "../data/MenuData.js"
+import { menu, packed, items } from "../styles/Menu.module.css";
+import { cardapio, marmitas } from "../data/MenuData.js";
 
 const Menu = () => {
 	return (
@@ -29,7 +29,7 @@ const Menu = () => {
 			</div>
 			<small>*Proteína texturizada de soja</small>
 		</section>
-	)
-}
+	);
+};
 
 export default Menu;

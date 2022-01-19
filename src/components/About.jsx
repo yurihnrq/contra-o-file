@@ -1,7 +1,7 @@
-import React from "react"
+import React from "react";
 
-import artwork from "../images/undraw_cooking_lyxy.svg"
-import { about, aboutText, aboutImg } from "../styles/About.module.css"
+import artwork from "../images/undraw_cooking_lyxy.svg";
+import { about, aboutText, aboutImg } from "../styles/About.module.css";
 
 const About = () => {
 	return (
@@ -26,7 +26,7 @@ const About = () => {
 				</div>
 			</article>
 		</section>
-	)
-}
+	);
+};
 
 export default About;

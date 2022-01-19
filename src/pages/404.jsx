@@ -1,8 +1,8 @@
-import * as React from "react"
+import * as React from "react";
 
-import { Link } from "gatsby"
-import Header from "../components/Header.jsx"
-import Seo from "../components/Seo"
+import { Link } from "gatsby";
+import Header from "../components/Header.jsx";
+import Seo from "../components/Seo";
 
 const NotFoundPage = () => (
 	<>
@@ -16,6 +16,6 @@ const NotFoundPage = () => (
 			</Link>
 		</section>
 	</>
-)
+);
 
 export default NotFoundPage;

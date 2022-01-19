@@ -1,9 +1,9 @@
-import * as React from "react"
+import * as React from "react";
 
-import Layout from "../components/Layout"
-import Seo from "../components/Seo"
-import Menu from "../components/Menu"
-import Order from "../components/Order"
+import Layout from "../components/Layout";
+import Seo from "../components/Seo";
+import Menu from "../components/Menu";
+import Order from "../components/Order";
 
 const Cardapio = () => {
 
@@ -13,7 +13,7 @@ const Cardapio = () => {
 			<Menu />
 			<Order />
 		</Layout>
-	)
-}
+	);
+};
 
 export default Cardapio;

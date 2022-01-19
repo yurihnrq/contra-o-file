@@ -1,8 +1,8 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import * as React from "react";
+import { Link } from "gatsby";
 
-import { footer, info } from "../styles/Footer.module.css"
-import { InstagramIcon, TwitterIcon, FaceBookIcon } from "../components/Icons"
+import { footer, info } from "../styles/Footer.module.css";
+import { InstagramIcon, TwitterIcon, FaceBookIcon } from "../components/Icons";
 
 const Footer = () => (
 	<footer className={footer}>
@@ -34,13 +34,13 @@ const Footer = () => (
 					Redes sociais:
 				</h3>
 				<div>
-					<a href="https://instagram.com" target="_blank" rel="norefferer">
+					<a href="https://instagram.com" target="_blank" rel="norefferer noreferrer">
 						<InstagramIcon />
 					</a>
-					<a href="https://facebook.com" target="_blank" rel="norefferer">
+					<a href="https://facebook.com" target="_blank" rel="norefferer noreferrer">
 						<FaceBookIcon />
 					</a>
-					<a href="https://twitter.com" target="_blank" rel="norefferer">
+					<a href="https://twitter.com" target="_blank" rel="norefferer noreferrer">
 						<TwitterIcon />
 					</a>
 				</div>
@@ -58,5 +58,5 @@ const Footer = () => (
 			</Link>
 		</nav>
 	</footer>
-)
-export default Footer
+);
+export default Footer;

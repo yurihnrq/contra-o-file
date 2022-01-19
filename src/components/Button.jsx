@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import PropTypes from "prop-types";
 
 const Button = ({ text, onClick, className }) => (
 	<button
@@ -10,6 +11,16 @@ const Button = ({ text, onClick, className }) => (
 	>
 		{text}
 	</button>
-)
+);
+
+Button.defaultProps = {
+	text: "Sem texto"
+};
+
+Button.propTypes = {
+	text: PropTypes.string,
+	onClick: PropTypes.func,
+	className: PropTypes.string
+};
 
 export default Button;

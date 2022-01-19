@@ -1,13 +1,14 @@
-import * as React from "react"
+import * as React from "react";
+import PropTypes from "prop-types";
 
-import { card, text } from "../styles/MenuItem.module.css"
+import { card, text } from "../styles/MenuItem.module.css";
 
 const MenuItem = ({ name, price, img }) => {
 
-	const formatter = new Intl.NumberFormat('pt-br', {
+	const formatter = new Intl.NumberFormat("pt-br", {
 		style: "currency",
 		currency: "BRL"
-	})
+	});
 
 	return (
 		<div className={card}>
@@ -17,7 +18,13 @@ const MenuItem = ({ name, price, img }) => {
 				<p>{formatter.format(price)}</p>
 			</div>
 		</div>
-	)
-}
+	);
+};
+
+MenuItem.propTypes = {
+	name: PropTypes.string,
+	price: PropTypes.func,
+	img: PropTypes.element
+};
 
 export default MenuItem;

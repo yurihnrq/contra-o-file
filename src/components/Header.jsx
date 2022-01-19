@@ -1,18 +1,18 @@
-import React, { useEffect, useState } from "react"
-import { Link } from "gatsby"
-import logo from "../images/logo/logo-inline.png"
+import React, { useEffect, useState } from "react";
+import { Link } from "gatsby";
+import logo from "../images/logo/logo-inline.png";
 
-import { header, nav, sidenav } from "../styles/Header.module.css"
-import { MenuIcon, CloseIcon } from "../components/Icons.jsx"
+import { header, nav, sidenav } from "../styles/Header.module.css";
+import { MenuIcon, CloseIcon } from "../components/Icons.jsx";
 
 const Header = () => {
 
 	const [sideNav, setSideNav] = useState(false);
 
 	useEffect(() => {
-		const bodyStyle = document.body.style
-		sideNav ? bodyStyle.overflow = "hidden" : bodyStyle.overflow = "auto"
-	}, [sideNav])
+		const bodyStyle = document.body.style;
+		sideNav ? bodyStyle.overflow = "hidden" : bodyStyle.overflow = "auto";
+	}, [sideNav]);
 
 	return (
 		<header className={header} id="Header">
@@ -60,7 +60,7 @@ const Header = () => {
 				)
 			}
 		</header >
-	)
-}
+	);
+};
 
-export default Header
+export default Header;
