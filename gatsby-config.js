@@ -16,7 +16,7 @@ module.exports = {
 		title: `Contra o Filé`,
 		description: `Restaurante vegano com comida deliciosa e acessível.`,
 		author: `Yuri Henrique B. Maciel`,
-		siteUrl: `localhost:8000`,
+		siteUrl: `https://contra-o-file.web.app/`,
 	},
 	plugins: [
 		`gatsby-plugin-postcss`,
