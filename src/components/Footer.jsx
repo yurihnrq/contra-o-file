@@ -53,7 +53,7 @@ const Footer = () => (
 			<Link to="/#sobre">
 				Sobre nós
 			</Link>
-			<Link to="/#Header">
+			<Link to="#Header">
 				Voltar ao topo
 			</Link>
 		</nav>
