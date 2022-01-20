@@ -23,8 +23,8 @@ const MenuItem = ({ name, price, img }) => {
 
 MenuItem.propTypes = {
 	name: PropTypes.string,
-	price: PropTypes.func,
-	img: PropTypes.element
+	price: PropTypes.number,
+	img: PropTypes.string
 };
 
 export default MenuItem;
