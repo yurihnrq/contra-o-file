@@ -15,10 +15,10 @@ const LandingSection = () => {
 				</p>
 				<div className={buttons}>
 					<a href="https://ifood.com.br" target="_blank" rel="norefferer noreferrer">
-						<Button text={"Peça pelo iFood"} className={"mx-3"} />
+						<Button text={"Peça pelo iFood"} className={"mx-3 mb-3 sm:mb-0"} />
 					</a>
 					<a href="https://whatsapp.com/?lang=pt_br" target="_blank" rel="norefferer noreferrer">
-						<Button text={"Peça pelo WhatsApp"} className={"mx-3 mt-3 sm:mt-0"} />
+						<Button text={"Peça pelo WhatsApp"} className={"mx-3"} />
 					</a>
 				</div>
 			</div>
