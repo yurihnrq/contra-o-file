@@ -1,10 +1,10 @@
-import * as React from "react";
-import MenuItem from "./MenuItem";
+import * as React from 'react';
+import MenuItem from './MenuItem';
 
-import { menu, packed, items } from "../styles/Menu.module.css";
-import { cardapio, marmitas } from "../data/MenuData";
+import { menu, packed, items } from '../styles/Menu.module.css';
+import { cardapio, marmitas } from '../data/MenuData';
 
-const Menu = () => {
+const Menu: React.FC = () => {
 	return (
 		<section className={menu}>
 			<h2>

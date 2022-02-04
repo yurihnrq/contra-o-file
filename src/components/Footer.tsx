@@ -1,10 +1,10 @@
-import * as React from "react";
-import { Link } from "gatsby";
+import * as React from 'react';
+import { Link } from 'gatsby';
 
-import { footer, info } from "../styles/Footer.module.css";
-import { InstagramIcon, TwitterIcon, FaceBookIcon } from "../components/Icons";
+import { footer, info } from '../styles/Footer.module.css';
+import { InstagramIcon, TwitterIcon, FaceBookIcon } from './Icons';
 
-const Footer = () => (
+const Footer: React.FC = () => (
 	<footer className={footer}>
 		<section className={info}>
 			<div>
@@ -34,26 +34,26 @@ const Footer = () => (
 					Redes sociais:
 				</h3>
 				<div>
-					<a href="https://instagram.com" target="_blank" rel="norefferer noreferrer">
+					<a href='https://instagram.com' target='_blank' rel='norefferer noreferrer'>
 						<InstagramIcon />
 					</a>
-					<a href="https://facebook.com" target="_blank" rel="norefferer noreferrer">
+					<a href='https://facebook.com' target='_blank' rel='norefferer noreferrer'>
 						<FaceBookIcon />
 					</a>
-					<a href="https://twitter.com" target="_blank" rel="norefferer noreferrer">
+					<a href='https://twitter.com' target='_blank' rel='norefferer noreferrer'>
 						<TwitterIcon />
 					</a>
 				</div>
 			</div>
 		</section>
 		<nav>
-			<Link to="/cardapio">
+			<Link to='/cardapio'>
 				Cardápio
 			</Link>
-			<Link to="/#sobre">
+			<Link to='/#sobre'>
 				Sobre nós
 			</Link>
-			<Link to="#Header">
+			<Link to='#Header'>
 				Voltar ao topo
 			</Link>
 		</nav>

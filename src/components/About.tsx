@@ -1,11 +1,11 @@
-import React from "react";
+import * as React from 'react';
 
-import artwork from "../images/undraw_cooking_lyxy.svg";
-import { about, aboutText, aboutImg } from "../styles/About.module.css";
+import artwork from '../images/undraw_cooking_lyxy.svg';
+import { about, aboutText, aboutImg } from '../styles/About.module.css';
 
-const About = () => {
+const About: React.FC = () => {
 	return (
-		<section className={about} id="sobre">
+		<section className={about} id='sobre'>
 			<h2>
 				Sobre nós
 			</h2>
@@ -22,7 +22,7 @@ const About = () => {
 					</p>
 				</div>
 				<div className={aboutImg}>
-					<img src={artwork} alt="Imagem sobre nós" />
+					<img src={artwork} alt='Imagem sobre nós' />
 				</div>
 			</article>
 		</section>
